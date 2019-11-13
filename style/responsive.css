@@ -1,0 +1,141 @@
+@media screen and (max-width: 600px) {	
+	header{
+		display: block;/
+		padding: 15px;
+		font-size: 25px;
+		color: #fff;
+		width: 10%;
+		cursor: pointer;
+	}
+	/*#top{ display: none; }*/
+	.row{
+		grid-template-columns: auto auto;
+	}
+	#brand{ display: none; }
+	nav{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		left: 0;
+		transform: translateY(-100%);
+		background: #c23616 !important;
+		transition: 0.4s;
+		-webkit-transition: left 0.4s;
+		-moz-transition: left 0.4s;
+	}
+
+	.slide{
+		transform: translateY(0%) !important;
+		transition: 500ms transform ease-in-out
+	}
+	.slideBack{
+		transform: translateY(-100%) !important;
+		transition: 500ms transform ease-in-out
+	}
+	header{
+		text-align: center;
+		position: absolute;
+		padding: 5px;
+		z-index: 1;
+	}
+	header:hover{
+		cursor: pointer;
+	}
+	.landing{
+		position: static;
+	}
+	.landing::after{
+		left: 0;
+		top: 0 !important;
+		height: 100%;
+	}
+	.landing-content h1{
+		font-size: 35px;
+		font-weight: 900;
+	}
+	#close{
+		display: block;
+		color: #fff;
+		font-size: 25px;
+	}
+	#close:hover{
+		cursor: pointer;
+	}
+	.menu{
+		position:relative;
+		padding: 0;
+		top: 10%;
+		margin: 0;
+		text-align: center;
+		cursor: pointer;
+	}
+	.menu-item{
+		width: 80%;
+		margin: 5px 0;
+		font-size: 18px;
+		color: white;
+		box-sizing: border-box;
+	}
+	.menu-item:hover{
+		background-color: #de4d2c;
+		border-bottom: none;
+	}
+	.card{
+		padding: 10px;
+		text-align: center;
+	}
+	.card img{
+		/*text-align: center;*/
+	}
+	.card .img-card{
+		/*display: inline-block;*/
+		max-width: 50%;
+		text-align: center;
+		/*border: 1px solid red;*/
+		/*max-height: 253px;*/
+	}
+	.card-detile{
+		display: none;
+	}
+	.row, .row-cust{
+		display: grid;
+		/*flex-wrap: wrap;*/
+		grid-template-columns: auto;
+	}
+	.cust-card{
+		height: auto;
+	}
+	.cust-img img{
+		width: 30%;
+	}
+	.prev, .next{
+		display: none;
+	}
+	.testi-hide{
+		background-color: #c23616;
+		border: 1px solid #fff;
+		color: #fff;
+		display: block;
+		padding: 5px 10px;
+		text-align: center;
+		transition: .4s;
+	}
+	.testi-hide:hover{
+		background-color: transparent;
+		border-color: #c23616;
+		color: #000;
+	}
+	footer form input{
+		width: 75%;		
+	}
+
+	footer form button{
+		padding: 10px;
+	}
+	footer .product, footer .relation{
+		margin-top: 30px;
+		padding: 0 10px;
+	}
+}

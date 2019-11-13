@@ -1,0 +1,131 @@
+body{
+	background: #fcfcfc;
+}
+nav{
+	/*background-color: #c23616;*/
+}
+#brand-single{
+	border: 1px solid transparent;
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	height: 100%;
+	color: #000;
+	font-size: 30px;
+	transition: .5s;	
+}
+
+.menu{
+	height: 100%;
+	width: 100%;
+	line-height: 50px;
+	transition: .4s;
+}
+.menu-item{
+	display: inline-block;
+	width: 80px;
+	color: #000;
+	text-align: center;
+	transition: 0.5s;
+}
+.menu-item:hover{
+	border-bottom: 3px solid #fff;
+	box-sizing: border-box;
+}
+.landing-single{
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	box-sizing: border-box;
+	/*border: 1px solid black;*/
+}
+.landing-single img{
+	max-height:  100%;
+	max-width: 100%;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+.landing-content{
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-20%, -50%);
+	z-index: 1;
+	width: 100%;
+	max-width: 800px;
+	text-align: center;
+	padding: 0 40px;
+	box-sizing: border-box;
+	transition: 0.4s lienar;
+}
+.landing-content h1{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.landing-content p{
+	color: #000;
+	margin-bottom: 20px;
+}
+.landing-content a{
+	display: inline-block;
+	text-decoration: none;
+	background-color: #c23616;
+	color: #fff;
+	margin-top: 20px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	transition: 0.4s linear;
+	border: 2px solid #c23616;
+	transition: 0.5s linear;
+}
+.landing-content a:hover{
+	color: #c23616;
+	border: 2px solid #c23616;
+	background: transparent;
+}
+.single-list{
+	line-height: 50px;
+}
+.card{
+	color: #000;
+	border-radius: 7px;
+	overflow: hidden;
+	margin: 10px;
+	opacity: 0.8;
+	transition: 0.2s all;
+	text-align: center;
+}
+.card .img-card-single{
+	display: inline-block;
+	max-width: 50%;
+	justify-content: center;
+}
+.card:hover{
+	/*opacity: 1;*/
+}
+.card > .ket-single{
+	padding: 10px;
+	text-align: center;
+}
+.card > .ket h4, .ket p{
+	margin-bottom: 10px;
+}
+.row-white{
+	background-color: #fff;
+}
+.fa-check{
+	color: #15bf23;
+}
+.fa-times{
+	color: #d40000;
+}
+.fa-check, .fa-times{
+	font-size: 20px;
+	/*font-weight: 1000;*/
+	margin-right: 10px;
+}
